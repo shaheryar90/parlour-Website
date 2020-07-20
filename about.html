@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty parlour</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        
+       
+
+
+
+<div>
+
+
+
+    
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img style="width: 200px;height: 120px;"
+                    src="https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/100993305_3090199711037844_825605130765205504_n.png?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQm1YtlT5kjehSmtEcpopkiY7a4sycmCEvn8toCgktqvuIj0RC9U6YftuWsHTeLPiKs&_nc_ht=scontent.fkhi6-1.fna&oh=1f2e0e7e590972c8aa95deca8983a09c&oe=5EF53866"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html" style="font-weight: bold;">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html" style="font-weight: bold;">About<span
+                                class="sr-only">(current)</span></a>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="font-weight: bold;">
+                            Accessories
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Eye lash</a>
+                            <a class="dropdown-item" href="#">Hair brush</a>
+                            <a class="dropdown-item" href="#">Makeup bag</a>
+                            <a class="dropdown-item" href="#">Makeup brushes</a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="font-weight: bold;">
+                            Hair extensions
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Human hair</a>
+                            <a class="dropdown-item" href="#">Synthetic hair</a>
+                    </li>
+                    <li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            style="font-weight: bold;">
+                            Makeup
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Cheeks</a>
+                            <a class="dropdown-item" href="#">Eyes</a>
+                            <a class="dropdown-item" href="#">Face</a>
+                            <a class="dropdown-item" href="#">Lips</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="gallery.html" style="font-weight: bold;">Gallery<span
+                                class="sr-only">(current)</span></a>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html" style="font-weight: bold;">Contact <span
+                                class="sr-only">(current)</span></a>
+
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline my-2 my-lg-0">
+                            <input style="width: 400px;" id="button" class="form-control mr-sm-2" type="search product"
+                                placeholder="Search product" aria-label="Search">
+                                <li>
+                                    <img style="height: 40px;width: 40px;"
+                                        src="data:image/png;base64,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">
+                                </li>
+                                <li>
+                                &emsp;<li class="nav-item active">
+                                    <a class="nav-link" href="#"><img style="height: 40px; width: 50px;"
+                                        src="https://st2.depositphotos.com/4441075/6586/i/950/depositphotos_65869507-stock-photo-shopping-cart-icon.jpg">
+                                        <span class="sr-only">(current)</span></a>
+                                </li>
+                                </li>
+        
+                                
+                            </ul>
+
+                        </form>
+
+                    
+            </div>
+    </div>
+    </div>
+    </div>
+    </nav>
+    </div>
+    <div >
+        <h1 style="text-align: center; padding-top: 100PX; color: orange;">ABOUT</h1>
+    </div>
+    <div style="padding-top: 20px;" class="container">
+        <div style="background-color: whitesmoke;" class="row">
+            <div style="text-align: justify;" id ="about"class="col-sm-12 col-md-6 col-lg-6">
+                <p><img style="height: 200px;width: 400px;" id="pic1"
+                        src="https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/100993305_3090199711037844_825605130765205504_n.png?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQm1YtlT5kjehSmtEcpopkiY7a4sycmCEvn8toCgktqvuIj0RC9U6YftuWsHTeLPiKs&_nc_ht=scontent.fkhi6-1.fna&oh=1f2e0e7e590972c8aa95deca8983a09c&oe=5EF53866"><br><br><span
+                        style="line-height: 1.8;"> full service beauty parlor dedicated to consistently providing high
+                        customer satisfaction by rendering excellent service , quality products premier treatments in
+                        luxurious environment to enhance clients physical and give mental satisfaction. Sani team has
+                        great expertise in bridal makeup with fully trained and qualified hair and makeup artists. Main
+                        objective or mission is to keep up with the promise of providing clints with outstanding salon
+                        services and this is the reason that was earned Mahrose prestige among clints and keeps them
+                        coming back.</span></p>
+            </div>
+            <div  style="text-align:center" id ="about" class="col-sm-12 col-md-6 col-lg-6">
+                <img style="width: 500px;height: 530px;" id="pic"
+               src=" https://reviewit.pk/wp-content/uploads/2019/05/alizeh-shah-8.jpg">
+
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: whitesmoke; padding-top: 100px;margin-top: 100px; " class="container-fluid">
+        <div class="container" id="po">
+            <div class="row" >
+                <div style="text-align: justify;" class="col-sm-12 col-sm-6 col-lg-3">
+                    <p style="font-weight: bold;">ABOUT US <br> <br>
+                        <span style="font-weight: normal;"> Sani's Beauty Parlor is one of the famous salon in the
+                            Pakistan to offer complete Salon Facilities. Created to meet the diverse beauty needs of
+                            women, Sani’s is dedicated to provide all beauty services under one roof.</span> </p>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-lg-3">
+                    <p style="font-weight: bold;">CUSTOMER SERVICES<br> <br>
+                        <span style="font-weight: normal;"> Privacy Policy<BR>
+                            Terms & conditons<br>
+                            Contact Us<br>
+                            FAQ<br>
+                            About Us</span></p>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-lg-3">
+                    <p style="font-weight: bold;">CONTACT <br> <br>
+                        <span style="font-weight: normal;"> Email<br>
+                            P.R Section<BR>
+                            Support<br>
+                            Refunds<br>
+                            Blog</span> </p>
+                </div>
+                <div class="col-sm-12 col-sm-6 col-lg-3">
+                    <p style="font-weight: bold;">NEWSLETTER<br> <br>
+                        <span style="font-weight: bold;">first name &ensp;&ensp;<br><input type="search">
+                            <br> <br>last name &emsp;<br><input type="search"></span> </p><br>
+                    <button type="button" style="width: 150px; margin-bottom: 30px;"
+                        class="btn btn-dark">Subscribe!</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div style="background-color: black; padding-top: 30px;" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-sm-6 col-lg-3">
+                <p style="color: white; font-weight: bold;">
+                    Help Center&emsp; &emsp; Video tutorial<br>
+                    © 2020 Sani Beauty Saloon | Powered By:<span style="color:blueviolet; font-weight: bold;">
+                        OpooleTech </span>
+                </p>
+
+            </div>
+            <div class="col-sm-12 col-sm-6 col-lg-3"><img
+                    src="https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/61773082_299348534287201_748497660209528832_n.jpg?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQnbjyjP5nslMDDj9uQxLYRoejOP6VAobBJR1iuEFp9o4J2RA7QiQjE9yCqv0du7ahQ&_nc_ht=scontent.fkhi6-1.fna&oh=d36e4197c946b6d94ba6d86fd884b41b&oe=5EF2C5D2">&emsp;
+                <img
+                    src="https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/95663794_617306368860416_3243928222450057216_n.png?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQkcgaU-Dy5nglRykvgr6WF_otO5NPf4jyZx2v39hpYP2ZVh3QE800WFu76l9W---O0&_nc_ht=scontent.fkhi6-1.fna&oh=4b48037b2636a186177f3716c1da6639&oe=5EF379EB">&emsp;
+                <img
+                    src="https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/48373110_505224929966027_1422278759372816384_n.png?_nc_cat=108&_nc_sid=b96e70&_nc_oc=AQnvlGYxWVXzhpeafiwy6vaG1GxV4q32e--SHocU-rQ-_zydh9SKChcZAI7HcqesTYo&_nc_ht=scontent.fkhi6-1.fna&oh=19626026eb82894bd6e28905446674d1&oe=5EF258D0">&emsp;
+                <img
+                    src="https://scontent.fkhi6-1.fna.fbcdn.net/v/t1.15752-9/48371170_1943233325766046_4347803532703825920_n.png?_nc_cat=102&_nc_sid=b96e70&_nc_oc=AQnXG4f36ihVffjjduYZL6sk5gYCG1p9UCYMWL9Xy4c2o5zAdqh-kogNhbJFRDOypqg&_nc_ht=scontent.fkhi6-1.fna&oh=e844f3b941f226187c83a0bce72ebb5d&oe=5EF28D25">
+
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

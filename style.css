@@ -1,0 +1,78 @@
+img{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.card{
+    width: 230px !important;
+    height: 350px !important;
+    margin: 4px;
+    margin-top: 20px;
+}
+
+}
+.navbar-brand ,.navbar-light{
+    background-color:white!important;
+}
+.row .col-4 img{
+    width: 400px;
+    height: 400px;
+}
+.card1,.card2,.card3,.card4,.card5,.card6{
+    border: 2px solid orange;
+    margin-top: 5px;
+}
+ @media  screen and (max-width:460px){ 
+     #pic { 
+         width: 100% !important;
+
+ }
+}
+
+
+
+@media  screen and (max-width:440px){ 
+    #pic1{ 
+        width: 100% !important;
+
+}
+}
+@media  screen and (max-width:570px){ 
+    #button{ 
+        width: 200px !important;
+
+}
+}
+@media  screen and (max-width:960px){ 
+    #gallery{ 
+        width: 100% !important;
+
+}
+}
+@media  screen and (max-width:1200px){ 
+    #gallery{ 
+        width: 100% !important;
+
+}
+}
+@media  screen and (max-width:994px){ 
+    #pic, #pic1{ 
+        width:100% !important;
+
+}
+}
+@media  screen and (max-width:700px){ 
+    #slides{ 
+        height: 500px !important;
+
+}
+}
+@media  screen and (max-width:500px){ 
+    #slides{ 
+        height: 300px !important;
+
+}
+}
+
+  
